@@ -16,9 +16,12 @@ const ScrollToTop = () => {
   return null;
 };
 
+import SmoothScroll from './components/SmoothScroll';
+
 const App: React.FC = () => {
   return (
     <HashRouter>
+      <SmoothScroll />
       <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-white">
         <Navbar />
