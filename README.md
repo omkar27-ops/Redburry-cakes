@@ -1,100 +1,20 @@
-# Red Burry Cakes Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A premium cake shop website designed to showcase cake products, accept custom cake inquiries, and establish a strong online presence for the brand.
+# Run and deploy your AI Studio app
 
-The website follows a clean red-and-white luxury aesthetic and is optimized for both desktop and mobile devices.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1G5N7UC9s8N2V4DDetm6nDaksIr_waW3r
 
-## Project Overview
+## Run Locally
 
-**Business Name:** Red Burry Cakes  
-**Website Type:** Cake Shop / Bakery Website  
+**Prerequisites:**  Node.js
 
-**Purpose:**
-- Display cake collections and best sellers
-- Accept custom cake requests
-- Show pricing and offers
-- Provide contact and location details
 
----
-
-## Pages Included
-
-- Home
-- Cakes / Products
-- About Us
-- Contact Us
-- Login
-- Register
-
----
-
-## Design & UI
-
-- Color Theme: Red and White
-- Style: Premium, clean, modern bakery design
-- Layout: Multi-page, responsive
-- Images: Placeholder-based layout with replaceable images
-
----
-
-## Editing Content
-
-### Updating Images
-- Open the project in Anti-Gravity
-- Click on any image placeholder
-- Upload the desired cake image
-- Adjust crop or alignment if required
-- Save changes
-
-Do not delete image containers. Only replace images.
-
----
-
-### Updating Prices
-- Open the relevant page in Anti-Gravity
-- Click directly on the price text
-- Update the value
-- Save
-
-No code changes are required.
-
----
-
-### Updating Address or Contact Information
-- Navigate to the Footer or Contact page
-- Click on the address, phone number, or email text
-- Edit and save
-
----
-
-## Technology Stack
-
-- HTML
-- CSS
-- JavaScript
-- Built and maintained using AI tools and Anti-Gravity
-
----
-
-## Deployment
-
-The website can be deployed using:
-- GitHub Pages
-- Netlify
-- Vercel
-
----
-
-## Maintenance Notes
-
-- This README is intended for developers and editors
-- End users and customers will not see this file
-- Use this document as a reference for future updates
-
----
-
-## Author
-
-Created and maintained by Omkar Randive
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
