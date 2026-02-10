@@ -16,7 +16,7 @@ const Home: React.FC = () => {
               Premium Artisan Cakes
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-serif font-bold text-text leading-[1.1]">
+            <h1 className="text-3xl md:text-5xl lg:text-[4rem] font-serif font-bold text-text leading-[1.1]">
               Baked With <span className="text-primary">Love</span>,<br />
               Designed To Celebrate
             </h1>
@@ -37,9 +37,9 @@ const Home: React.FC = () => {
           </div>
 
           {/* Floating Cake Gallery (Visuals Column) */}
-          <div className="relative h-[500px] md:h-[600px] w-full hidden md:block">
+          <div className="relative h-[400px] md:h-[600px] w-full block">
             {/* 1. Large Hero (Top Right) */}
-            <div className="absolute top-0 right-0 w-64 h-80 bg-white p-2 shadow-card rounded-2xl rotate-[3deg] z-20 hover:scale-105 transition-transform duration-500 border border-primary/10">
+            <div className="absolute top-0 right-0 w-32 h-40 md:w-64 md:h-80 bg-white p-2 shadow-card rounded-2xl rotate-[3deg] z-20 hover:scale-105 transition-transform duration-500 border border-primary/10">
               <div className="w-full h-full rounded-xl flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-xs relative overflow-hidden">
                 <img src="/images/gallery-1.jpg" alt="Cake Gallery 1" className="w-full h-full object-cover rounded-xl" />
                 <div className="absolute bottom-2 left-0 right-0 text-center text-[10px] font-bold text-primary/60 uppercase tracking-widest bg-white/80 backdrop-blur-sm py-1">Wedding</div>
@@ -47,42 +47,42 @@ const Home: React.FC = () => {
             </div>
 
             {/* 2. Medium Square (Center) */}
-            <div className="absolute top-1/4 left-1/4 w-48 h-48 bg-white p-2 shadow-card rounded-2xl rotate-[-2deg] z-30 hover:scale-105 transition-transform duration-500 border border-primary/10">
+            <div className="absolute top-1/4 left-1/4 w-24 h-24 md:w-48 md:h-48 bg-white p-2 shadow-card rounded-2xl rotate-[-2deg] z-30 hover:scale-105 transition-transform duration-500 border border-primary/10">
               <div className="w-full h-full rounded-xl flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-xs overflow-hidden">
                 <img src="/images/gallery-2.jpg" alt="Cake Gallery 2" className="w-full h-full object-cover rounded-xl" />
               </div>
             </div>
 
             {/* 3. Tall Thin (Left) */}
-            <div className="absolute top-10 left-0 w-32 h-64 bg-white p-2 shadow-card rounded-2xl rotate-[-6deg] z-10 hover:scale-105 transition-transform duration-500 border border-primary/10">
+            <div className="absolute top-10 left-0 w-16 h-32 md:w-32 md:h-64 bg-white p-2 shadow-card rounded-2xl rotate-[-6deg] z-10 hover:scale-105 transition-transform duration-500 border border-primary/10">
               <div className="w-full h-full rounded-xl flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-xs overflow-hidden">
                 <img src="/images/gallery-3.jpg" alt="Cake Gallery 3" className="w-full h-full object-cover rounded-xl" />
               </div>
             </div>
 
             {/* 4. Small Square (Top Center) */}
-            <div className="absolute top-[-20px] left-[40%] w-32 h-32 bg-white p-2 shadow-card rounded-xl rotate-[5deg] z-10 hover:scale-105 transition-transform duration-500 border border-primary/10">
+            <div className="absolute top-[-20px] left-[40%] w-16 h-16 md:w-32 md:h-32 bg-white p-2 shadow-card rounded-xl rotate-[5deg] z-10 hover:scale-105 transition-transform duration-500 border border-primary/10">
               <div className="w-full h-full rounded-lg flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-xs overflow-hidden">
                 <img src="/images/gallery-4.jpg" alt="Cake Gallery 4" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
 
             {/* 5. Medium Rectangle (Bottom Right) */}
-            <div className="absolute bottom-10 right-10 w-56 h-40 bg-white p-2 shadow-card rounded-2xl rotate-[-3deg] z-20 hover:scale-105 transition-transform duration-500 border border-primary/10">
+            <div className="absolute bottom-10 right-10 w-28 h-20 md:w-56 md:h-40 bg-white p-2 shadow-card rounded-2xl rotate-[-3deg] z-20 hover:scale-105 transition-transform duration-500 border border-primary/10">
               <div className="w-full h-full rounded-xl flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-xs overflow-hidden">
                 <img src="/images/gallery-5.jpg" alt="Cake Gallery 5" className="w-full h-full object-cover rounded-xl" />
               </div>
             </div>
 
             {/* 6. Small Portrait (Bottom Left) */}
-            <div className="absolute bottom-20 left-10 w-36 h-48 bg-white p-2 shadow-card rounded-xl rotate-[4deg] z-20 hover:scale-105 transition-transform duration-500 border border-primary/10">
+            <div className="absolute bottom-20 left-10 w-16 h-24 md:w-36 md:h-48 bg-white p-2 shadow-card rounded-xl rotate-[4deg] z-20 hover:scale-105 transition-transform duration-500 border border-primary/10">
               <div className="w-full h-full rounded-lg flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-xs overflow-hidden">
                 <img src="/images/gallery-1.jpg" alt="Cake Gallery 6" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
 
             {/* 7. Mini Square (Floating Top Right - deeper) */}
-            <div className="absolute top-20 right-[30%] w-24 h-24 bg-white p-1.5 shadow-sm rounded-lg rotate-[12deg] z-0 opacity-80 border border-primary/10">
+            <div className="absolute top-20 right-[30%] w-12 h-12 md:w-24 md:h-24 bg-white p-1.5 shadow-sm rounded-lg rotate-[12deg] z-0 opacity-80 border border-primary/10">
               <div className="w-full h-full rounded-md flex items-center justify-center bg-white border-2 border-dashed border-primary/30 text-primary/40 font-bold uppercase tracking-widest text-[10px] overflow-hidden">
                 <img src="/images/gallery-2.jpg" alt="Cake Gallery 7" className="w-full h-full object-cover rounded-md" />
               </div>
@@ -130,7 +130,7 @@ const Home: React.FC = () => {
       {/* SECTION 4: CUSTOM CAKES */}
       <section className="py-20 lg:py-32">
         <div className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[500px] group bg-white border border-gray-100 p-4">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[300px] md:h-[500px] group bg-white border border-gray-100 p-4">
             <div className="w-full h-full rounded-xl flex items-center justify-center bg-secondary border-2 border-dashed border-primary/20 relative overflow-hidden">
               <img src="/images/custom-cakes.jpg" alt="Custom Cakes" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -174,7 +174,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Horizontal Scroll Container */}
-        <div className="flex overflow-x-auto gap-6 pb-12 px-6 md:px-[calc((100vw-1200px)/2)] no-scrollbar snap-x">
+        <div className="flex overflow-x-auto gap-6 pb-12 px-6 md:px-[calc((100vw-1200px)/2)] no-scrollbar snap-x max-w-full">
           {[
             { name: "Ritika & Sourav", event: "Wedding", quote: "The most stunning cake we've ever seen. It tasted like heaven!" },
             { name: "Ananya Singh", event: "30th Birthday", quote: "Redburry Cakes nailed the design perfectly. Everyone asked where it was from." },

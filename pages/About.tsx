@@ -17,7 +17,7 @@ const About: React.FC = () => {
       {/* Content */}
       <div className="max-w-[1200px] mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
-          <div className="order-2 md:order-1 h-[600px] bg-white rounded-2xl shadow-xl border border-gray-100 p-4">
+          <div className="order-2 md:order-1 h-[400px] md:h-[600px] bg-white rounded-2xl shadow-xl border border-gray-100 p-4">
             <div className="w-full h-full rounded-xl overflow-hidden">
               <img
                 src="/images/about-kitchen.jpg"
